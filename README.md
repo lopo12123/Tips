@@ -1,6 +1,6 @@
 # TIPS
 
-## Ⅰ.pyinstaller
+## Ⅰ.pyinstaller  
 >[the use of pyinstaller](https://blog.csdn.net/qq_34106574/article/details/82964110)  
 **-F, –onefile**	产生一个文件用于部署 (参见XXXXX).  
 **-D, –onedir**	产生一个目录用于部署 (默认)
@@ -17,3 +17,17 @@
 **–icon=<FILE.EXE,N>** 将file.exe的第n个图标添加为可执行文件的资源(只对Windows系统有效)  
 **-v FILE, –version=FILE** 将verfile作为可执行文件的版本资源(只对Windows系统有效)  
 **-n NAME, –name=NAME** 可选的项目(产生的spec的)名字.如果省略,第一个脚本的主文件名将作为spec的名字  
+
+## Ⅱ.markdown  
+>[the use of mark down](https://www.jianshu.com/p/191d1e21f7ed/)  
+**标题** #  #标题  
+**倾斜** *  *倾斜*  
+**加粗** **  **加粗**  
+**删除线** ~~  ~~删除~~  
+**换行** 两个空格  
+**引用** >  >引用  
+**分割线** ---  
+**超链接** [超链接名](url '超链接title')  
+**列表** +-* (无序列表, 跟内容之间需要一个空格)
+**列表** 数字加点 
+**表格** 数列用|分割，表头和内容用分割线分割  
