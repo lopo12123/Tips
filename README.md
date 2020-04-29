@@ -1,8 +1,8 @@
 # TIPS
 
 ## Ⅰ.pyinstaller
->[the use of pyinstaller](https://blog.csdn.net/qq_34106574/article/details/82964110)
--F, &nbsp –onefile	产生一个文件用于部署 (参见XXXXX).  
+>[the use of pyinstaller](https://blog.csdn.net/qq_34106574/article/details/82964110)  
+-F, &nbsp; –onefile	产生一个文件用于部署 (参见XXXXX).  
 -D, –onedir	产生一个目录用于部署 (默认)
 -K, –tk	在部署时包含 TCL/TK  
 -a, –ascii	不包含编码.在支持Unicode的python版本上默认包含所有的编码.  
