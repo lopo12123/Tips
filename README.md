@@ -1,6 +1,7 @@
-# pyinstaller
+# **TIPS**
 
-the use of pyinstaller
+## pyinstaller
+>[the use of pyinstaller](https://blog.csdn.net/qq_34106574/article/details/82964110)
 
 -F, –onefile	产生一个文件用于部署 (参见XXXXX).
 -D, –onedir	产生一个目录用于部署 (默认)
