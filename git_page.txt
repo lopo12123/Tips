@@ -1,0 +1,11 @@
+1、创建个人站点
+
+1.1 新建仓库（仓库名为[用户名.github.io]）
+
+1.2 在仓库下新建index.html
+
+2、创建项目主页
+
+2.1 进入 [settings]
+
+2.2 点击 [launch automatic page generator]

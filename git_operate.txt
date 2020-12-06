@@ -1,0 +1,82 @@
+------------------------
+>>> 配置
+
+1、设置用户名：
+git config --global user.name 'lopo12123' <user name>
+
+2、设置用户邮箱：
+git config --global user.email '2036604698@qq.com' <user email>
+
+3、查看设置：
+git config --list
+
+------------------------
+>>> 本地
+
+1、查看当前状态：
+git status
+
+2、初始化：
+git init
+
+3、添加文件（文件 -> 暂存区 -> 仓库）：
+3.1 文件 -> 暂存区
+git add a.txt    [git add <file name>]
+
+3.2 暂存区 -> 仓库
+git commit -m 'description'    [git commit <file name> -m <description>]
+
+4、删除文件：
+4.1 方法1：删除文件(通过rm删除需要将改变保存到暂存区)
+rm a.txt    [rm <file name>]
+git add a.txt    [git add <file name>]
+
+4.2 方法2：从git中删除文件（通过git rm删除直接操作，省去一步步骤）
+git rm a.txt    [git rm <file name>]
+
+4.3 提交操作
+git commit -m 'description'    [git commit -m <description>]
+
+5、回退：
+5.1 查看提交日志
+git log
+git log --pretty=oneline （改变输出格式）
+
+5.2 查看修改内容
+git diff
+
+5.3 回退
+git reset --hard HEAD^ （回到上一个版本）
+git reset --hard HEAD^^ （回到上上个版本）
+git reset --hard HEAD~100 （回到往上100个版本）
+git reset --hard 1094a （回到版本id为1094a...的版本，版本id可以不写全）
+
+5.4 记录
+git reflog (记录每一次命令，可以获得commit id，用于恢复到新版本)
+------------------------
+>>> 远程
+
+1、将远程仓库（github对应项目）复制到本地
+git clone 仓库地址    [git clone <address>]
+
+2、本地进行操作
+[本地]
+
+3、将更新提交到远程仓库（github）
+git push
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
