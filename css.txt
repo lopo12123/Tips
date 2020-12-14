@@ -1,0 +1,4 @@
+1、id与class区别
+1.1 在css中，id前缀用'#'，class前缀用'.'；
+1.2 同一个标签只能有一个id，但可以有多个class；
+1.3 优先级 id > class；
