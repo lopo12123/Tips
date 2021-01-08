@@ -1,3 +1,5 @@
+本机文件位置：C:\Windows\System32\drivers\etc
+
 hosts：域名与ip地址的映射
 
 格式：<ip> <域名>
