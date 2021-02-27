@@ -1,5 +1,12 @@
-1. axios - <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-2. vue - <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+1. axios
+<script type="text/javascript" src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+2. vue
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+3. vtk
+<script type="text/javascript" src="https://unpkg.com/vtk.js"></script>
 
 
+接口：
 [获取随机笑话](https://autumnfish.cn/api/joke/list?num=value)
