@@ -1,0 +1,37 @@
+XHR(XMLHttpRequest)
+
+===== ===== ===== =====
+// POST请求
+// 1 创建对象
+var myXHR = new XMLHttpRequest();  // 新建 xhr 对象
+                        
+// 2 设置请求行
+myXHR.open('POST', 'https://api.digi-ortho.com:8443/teethAPI2.0/api/login');
+                        
+// 3 设置请求头
+// application/json;charset=UTF-8
+// application/x-www-form-urlencoded
+myXHR.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+                        
+// 4 发送
+myXHR.send(myJson);
+
+// 5 回调
+myXHR.onload = function() {
+    // console.log(myXHR.response);
+    console.log(JSON.parse(myXHR.response));  // 转成对象形式 log
+};
+
+===== ===== ===== =====
+// GET 请求
+var myXHR2 = new XMLHttpRequest();
+myXHR2.open('GET', 'https://api.digi-ortho.com:8443/teethAPI2.0/api/BracketTypeNameQueryServlet');
+myXHR2.onload = function() {
+    console.log('托槽类型:', myXHR2.responseText);
+};
+myXHR2.send(null);
+
+===== ===== ===== =====
+// 格式转换
+Obj => JSON -- JSON.stringify(myObj);
+JSON => Obj -- JSON.parse(myJSON);
