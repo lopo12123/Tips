@@ -1,0 +1,20 @@
+1.父页面调用子页面函数，选择iframe的id + contentWindow +子页面的函数名（[参数列表]）
+
+2.子页面调用父页面函数，window.parent.父页面的函数名（[参数列表]）
+
+
+// === 父用子 ===
+父页面:
+document.getElementById("childFrame").contentWindow.myFunction();
+子页面:
+function myFunction() {
+    // 具体内容
+}
+
+// === 子用父 ===
+父页面:
+function myFunction() {
+    // 具体内容
+}
+子页面:
+window.parent.myFunction();
